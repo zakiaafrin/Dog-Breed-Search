@@ -4,6 +4,8 @@ body {
     padding: 20px;
     padding-top: 60px;
     min-height: 100vh;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
 }
 
 #selectBreed,
@@ -25,12 +27,18 @@ body {
     background-repeat: no-repeat;
     width: 200px;
     cursor: s-resize;
+    border-radius: 20%;
+    font-weight: bold;
+    background-color: rgb(1, 253, 192);
 }
 
 #viewDog {
     cursor: pointer;
-    background-color: #ccc;
+    background-color: rgb(1, 253, 192);
+    border: 3px solid rgb(0, 5, 3);
     letter-spacing: 2px;
+    border-radius: 20%;
+    font-weight: bold;
 }
 
 #breedImage {
